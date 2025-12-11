@@ -218,6 +218,45 @@ nav a.active{color:var(--primary);font-weight:700}
 }
 
 
+/* Logo container enhancement */
+.logo-wrapper {
+    background: #f2f6ff; /* very light blue/white mix */
+    padding: 8px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.enhanced-logo {
+    width: 58px;
+    height: 58px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Enhanced brand text */
+.enhanced-brand-text {
+    font-size: 26px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #0b57b7, #7b5cff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Align header nicely */
+.enhanced-header .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-enhanced {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
 
 /* End of stylesheet */
 
