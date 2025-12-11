@@ -176,4 +176,93 @@ nav a.active{color:var(--primary);font-weight:700}
 .text-muted{color:var(--muted)}
 .center{text-align:center}
 
+
+/* Improved Services Page Styling */
+
+.services-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 40px;
+}
+
+.services-grid-enhanced {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.service-card-enhanced {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(123, 92, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card-enhanced img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.service-card-enhanced h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.service-card-enhanced p {
+  color: var(--muted);
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.service-btn {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* Hover Effects */
+.service-card-enhanced:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  border-color: var(--accent);
+}
+
+.service-card-enhanced::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.service-card-enhanced:hover::before {
+  opacity: 0.15;
+}
+
+
+
 /* End of stylesheet */
+
