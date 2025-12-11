@@ -220,9 +220,9 @@ nav a.active{color:var(--primary);font-weight:700}
 
 /* Logo container enhancement */
 .logo-wrapper {
-    background: #f2f6ff; /* very light blue/white mix */
-    padding: 8px;
-    border-radius: 14px;
+    background: #f2f6ff;
+    padding: 10px;
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,10 +230,10 @@ nav a.active{color:var(--primary);font-weight:700}
 }
 
 .enhanced-logo {
-    width: 58px;
-    height: 58px;
-    border-radius: 12px;
-    object-fit: cover;
+    width: 95px;      /* Increased from 58px → 95px */
+    height: 95px;     /* 60% larger */
+    border-radius: 16px;
+    object-fit: contain;
 }
 
 /* Enhanced brand text */
