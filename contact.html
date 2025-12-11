@@ -3,39 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | The Sky AI Giant</title>
+    <title>Contact Us - The Sky AI Giants</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
 </head>
 <body>
 
-<header>
-    <div class="logo">The Sky AI Giant</div>
+<header class="nav">
+    <div class="logo">The Sky AI Giants</div>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a class="active" href="contact.html">Contact</a>
     </nav>
 </header>
 
-<section class="page-header">
+<section class="hero small-hero">
     <h1>Contact Us</h1>
+    <p>We’re here to help you transform your business with AI, Cloud and Automation.</p>
 </section>
 
-<section class="content">
+<section class="contact-container">
+    <div class="contact-info">
+        <h2>Reach Out to Us</h2>
+        <p>If you have any queries about our services, solutions, or partnership opportunities, feel free to reach out.</p>
 
-    <form action="https://formspree.io/f/YOUR_ID" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Email Address" required>
-        <input type="text" name="phone" placeholder="Phone Number (optional)">
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
+        <div class="info-box">
+            <h3>Email</h3>
+            <p>support@theskyaigiants.com</p>
+        </div>
 
+        <div class="info-box">
+            <h3>Phone</h3>
+            <p>+91 90000 12345</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Location</h3>
+            <p>Hyderabad, India</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
 </section>
 
 <footer>
-    <p>© 2025 The Sky AI Giant. All Rights Reserved.</p>
+    <p>© 2025 The Sky AI Giants. All rights reserved.</p>
 </footer>
 
 </body>
