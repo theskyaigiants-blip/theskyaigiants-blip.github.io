@@ -117,13 +117,7 @@ nav a.active{color:var(--primary);font-weight:700}
 .content{padding:30px 0}
 .service-detail{display:flex;gap:20px;align-items:flex-start;margin-bottom:26px}
 .service-detail.reverse{flex-direction:row-reverse}
-/*.service-media img{width:420px;height:240px;object-fit:cover;border-radius:10px}*/
-.service-media img {
-    width: 100%;
-    height: auto;      /* ✔ maintains natural aspect ratio */
-    object-fit: contain; /* ✔ no cropping */
-    border-radius: 12px;
-}
+.service-media img{width:420px;height:300px;object-fit:cover;border-radius:10px}
 
 .service-body{flex:1}
 
