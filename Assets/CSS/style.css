@@ -141,7 +141,7 @@ nav a.active{color:var(--primary);font-weight:700}
 .value-card{background:var(--card);padding:18px;border-radius:10px;text-align:center;box-shadow:var(--small-shadow)}
 /*.value-card img{height:100px;object-fit:cover;margin-bottom:10px;border-radius:8px}*/
 .value-card img {
-    width: 140px;                /* increased size */
+    width: 200px;                /* increased size */
     height: 140px;               /* increased size */
     object-fit: contain;         /* shows full icon without cropping */
     margin: 0 auto 16px auto;    /* center image */
