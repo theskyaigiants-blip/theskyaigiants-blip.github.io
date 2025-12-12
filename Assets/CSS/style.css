@@ -139,7 +139,16 @@ nav a.active{color:var(--primary);font-weight:700}
 /* Values grid */
 .values-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
 .value-card{background:var(--card);padding:18px;border-radius:10px;text-align:center;box-shadow:var(--small-shadow)}
-.value-card img{height:100px;object-fit:cover;margin-bottom:10px;border-radius:8px}
+/*.value-card img{height:100px;object-fit:cover;margin-bottom:10px;border-radius:8px}*/
+.value-card img {
+    width: 140px;                /* increased size */
+    height: 140px;               /* increased size */
+    object-fit: contain;         /* shows full icon without cropping */
+    margin: 0 auto 16px auto;    /* center image */
+    display: block;
+    border-radius: 14px;         /* smoother edges */
+}
+
 
 /* FAQ */
 .faq h4{margin:14px 0 6px}
