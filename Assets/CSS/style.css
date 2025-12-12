@@ -268,5 +268,41 @@ nav a.active{color:var(--primary);font-weight:700}
     gap: 14px;
 }
 
+
+
+/* -----------------------
+   Global Button Styling
+------------------------ */
+
+.btn,
+.cta-link {
+    display: inline-block;
+    background: linear-gradient(90deg, #0b57b7, #7b5cff);
+    color: #fff !important;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(123,92,255,0.25);
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.btn:hover,
+.cta-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(123,92,255,0.35);
+    opacity: 0.95;
+}
+
+/* Ensure header 'Contact' button matches size */
+.main-nav .cta-link {
+    padding: 10px 22px !important;
+    border-radius: 10px !important;
+}
+
+
 /* End of stylesheet */
 
