@@ -305,34 +305,31 @@ nav a.active{color:var(--primary);font-weight:700}
 }
 
 
-/* =====================================
-   FORCE HEADER CONSISTENCY (ALL PAGES)
-===================================== */
+/* — Force consistent logo + brand across all pages — */
 
-/* Logo image size */
-.logo-img,
-.enhanced-logo {
+header .logo-img,
+header .enhanced-logo,
+header img {
     width: 42px !important;
     height: 42px !important;
-    object-fit: contain;
+    object-fit: contain !important;
 }
 
-/* Brand text size */
-.brand-text,
-.enhanced-brand-text {
+header .brand-text,
+header .enhanced-brand-text,
+header h1, 
+header h2,
+header h3 {
     font-size: 18px !important;
-    font-weight: 800;
+    font-weight: bold !important;
+    line-height: 1 !important;
 }
 
-/* Optional: keep spacing consistent */
-.brand,
-.brand-enhanced {
-    gap: 12px !important;
-}
-
-/* Optional: reduce visual bulk on enhanced header */
-.logo-wrapper {
-    padding: 6px !important;
+header .logo-wrapper, 
+header .brand, 
+header .brand-enhanced {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 
