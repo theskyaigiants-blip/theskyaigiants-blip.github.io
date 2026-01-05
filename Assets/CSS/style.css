@@ -305,5 +305,16 @@ nav a.active{color:var(--primary);font-weight:700}
 }
 
 
+.logo-img,
+.enhanced-logo {
+    width: 42px !important;
+    height: 42px !important;
+    object-fit: contain;
+}
+
+.logo-wrapper {
+    padding: 6px;
+}
+
 /* End of stylesheet */
 
