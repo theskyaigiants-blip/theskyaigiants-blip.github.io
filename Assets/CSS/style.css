@@ -305,6 +305,11 @@ nav a.active{color:var(--primary);font-weight:700}
 }
 
 
+/* =====================================
+   FORCE HEADER CONSISTENCY (ALL PAGES)
+===================================== */
+
+/* Logo image size */
 .logo-img,
 .enhanced-logo {
     width: 42px !important;
@@ -312,9 +317,24 @@ nav a.active{color:var(--primary);font-weight:700}
     object-fit: contain;
 }
 
-.logo-wrapper {
-    padding: 6px;
+/* Brand text size */
+.brand-text,
+.enhanced-brand-text {
+    font-size: 18px !important;
+    font-weight: 800;
 }
+
+/* Optional: keep spacing consistent */
+.brand,
+.brand-enhanced {
+    gap: 12px !important;
+}
+
+/* Optional: reduce visual bulk on enhanced header */
+.logo-wrapper {
+    padding: 6px !important;
+}
+
 
 /* End of stylesheet */
 
